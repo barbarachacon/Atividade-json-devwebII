@@ -1,0 +1,138 @@
+body {
+    background-color: #f3dbc3;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+header .logo{
+    display: flex;
+    align-items: center;
+}
+
+header .logo img {
+    width: 95.08px;
+    height: 94.96px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+header .logo h1{
+    color: #f12727;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+header .logo h2{
+    margin-left: 8px;
+    color: #f12727;
+    font-size: 35px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav a {
+    text-decoration: none;
+    background-color: #f12727;
+    color: #FFFF;
+    font-weight: bold;
+    weight: 141px;
+    height: 34px;
+    padding: 7px;
+    border-radius: 10px;
+}
+
+header nav a:hover{
+    background-color: #900b09;
+    color: #FFFF;
+}
+
+main .landing {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+main .landing .text h3{
+    font-family: "Climate Crisis", serif;
+    font-size: 96px;
+    color: #f12727;
+    position: absolute;
+    left: 32px;
+    top: 165px;
+}
+
+main .landing .photo1 img{
+    position: absolute;
+    left: 32px;
+    top: 416px; 
+    width: 640px;
+    height: 413px;
+
+}
+
+main .landing .photo2{
+    display: flex;
+    position: absolute;
+    left: 700px;
+    top: 416px;
+}
+
+main .landing .photo3{
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    left: 436px;
+    top: 700px;
+}
+
+main .landing .text-site p1{
+    font-size: 26px;
+    color: #900b09;
+    display: flex;
+    justify-self: right;
+    position: absolute;
+    left: 1015px;
+    top: 480px;
+    
+}
+
+main .landing .text-site p2{
+    font-size: 26px;
+    color: #900b09;
+    display: flex;
+    justify-self: right;
+    position: absolute;
+    left: 1015px;
+    top: 530px;
+    
+}
+
+main .landing .text-site p3{
+    font-size: 26px;
+    color: #900b09;
+    display: flex;
+    justify-self: right;
+    position: absolute;
+    left: 1015px;
+    top: 650px;
+    
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: #900b09;
+    color: #FFFF;
+    position: relative;
+    top: 900px;
+}
+
