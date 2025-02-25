@@ -21,10 +21,43 @@
             </ul>
         </nav>
     </header>
-    <div>
+    <section class="formulario">
         <h2>Faça seu cadastro</h2>
-        <input type="text" id="nome">
-    </div>
-    
+
+        <form id="formCadastro" onsubmit="event.preventDefault(); cadastrar();">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+
+            <label for="login">Login:</label>
+            <input type="text" id="login" required>
+
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" required>
+
+            <button type="submit">Cadastrar</button>
+        </form>
+    </section>
+
+    <section class="login">
+        <h2>Login</h2>
+        <form id="formLogin" onsubmit="event.preventDefault(); login();">
+            <label for="login">Login:</label>
+            <input type="text" id="login" required>
+
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" required>
+
+            <button type="submit">Entrar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Fotografia de Moda | Todos os direitos reservados</p>
+    </footer>
+
+    <script src="app.js"></script>
 </body>
 </html>
